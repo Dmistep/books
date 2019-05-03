@@ -1,2 +1,2 @@
-# books
-For my Knowledge Base
+# Initial page
+
