@@ -1,4 +1,4 @@
-# IMG TAG
+# img tag
 
 
 
