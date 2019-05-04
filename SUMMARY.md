@@ -4,9 +4,6 @@
 * [Разное](raznoe.md)
 * [Yandex](yandex.md)
 
-
-
-
 ## WEB
 
 * [HTML](web/untitled/README.md)
