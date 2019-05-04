@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Полезные символы](README.md)
 
 ## WEB
 

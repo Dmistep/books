@@ -1,6 +1,4 @@
-# img tag
-
-
+# IMG TAG
 
 ## HTML `<img>` Tag
 
