@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Полезные символы](README.md)
+* [Разное](raznoe.md)
 
 ## WEB
 
