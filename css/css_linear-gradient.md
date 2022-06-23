@@ -34,29 +34,3 @@ to bottom right| | От левого верхнего угла к правом�
 
 
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap'); 
-
-body{
-    width: 90%;
-    max-width: 800px;
-    box-sizing: border-box;
-    margin: 0 auto;
-    font-size: 18px;
-    color: #444;
-    font-family: 'Roboto Flex', sans-serif;
-}
-h1,h2,h3,h4{ 
-    color:#354361; 
-    
-}
-
-a{
-    color:#034ad8;
-    text-decoration: none;
-    font-weight: 500;
-            
-        }
-
-
-</style>
