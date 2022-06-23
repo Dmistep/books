@@ -1,7 +1,6 @@
 # linear-gradient()
 [![Badge site](https://img.shields.io/badge/gradients-webref.ru-yellowgreen.svg)](https://webref.ru/course/css-advanced/gradients)
 
-[CSS  {background}](:/59ca8832baf04f5ebb0c81e2689e43e1)
 
 Функция `linear-gradient()` добавляет линейный градиент к фону элемента. Она выступает значением свойства `background-image` или `background`.
 
