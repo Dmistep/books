@@ -1,54 +1,39 @@
-[![Badge site](https://img.shields.io/badge/@media-responsive-blueviolet.svg)](https://getbootstrap.com/docs/4.3/layout/overview/)
+# linear-gradient()
+[![Badge site](https://img.shields.io/badge/gradients-webref.ru-yellowgreen.svg)](https://webref.ru/course/css-advanced/gradients)
 
-Страницы, адаптированные для просмотра на разных типах устройств, должны содержать в разделе `<head>` метатег `viewport`.
+[CSS  {background}](:/59ca8832baf04f5ebb0c81e2689e43e1)
 
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-```
+Функция `linear-gradient()` добавляет линейный градиент к фону элемента. Она выступает значением свойства `background-image` или `background`.
 
-Так, `max-width: 576px` означает, что ширина окна браузера меньше 576 пикселов, а `min-width: 1200px`, наоборот, сообщает, что ширина окна больше 1200 пикселов.
 
-## min
+Синтаксис :
+
 ```css
-//Extra small devices (portrait phones, less than 576px) 
-//No media query for `xs` since this is the default in Bootstrap
-
-
-/*Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { ... } 
-/*Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... } 
-/*Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... } 
-/*Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+{
+background-image: linear-gradient(20deg, green, blue); 
+}
 ```
-## max
+
 ```css
-/*Extra small devices (portrait phones, less than 576px)*/
- @media (max-width: 575.98px) { ... } 
-/* Small devices (landscape phones, less than 768px)*/
- @media (max-width: 767.98px) { ... }
-/* Medium devices (tablets, less than 992px)*/
- @media (max-width: 991.98px) { ... } 
-/* Large devices (desktops, less than 1200px)*/
- @media (max-width: 1199.98px) { ... } 
-/* Extra large devices (large desktops) */
+{
+background-image: linear-gradient([<угол> deg | to <top, bottom и left, right>], <цвет> , <цвет>);
+}
+```
 
-```
-## min and max
-```css
-/*Extra small devices (portrait phones, less than 576px)*/
- @media (max-width: 575.98px) { ... } 
-/* Small devices (landscape phones, 576px and up)*/
- @media (min-width: 576px) and (max-width: 767.98px) { ... } 
-/* Medium devices (tablets, 768px and up)*/
- @media (min-width: 768px) and (max-width: 991.98px) { ... } 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
-```
+## Типы градиента
+
+Позиция|Угол|Описание
+:--------:|:----:|:----------|
+to top|0deg|Снизу вверх.
+to left|270deg-90deg|Справа налево.
+to bottom|180deg|Сверху вниз.
+to right|90deg-270deg|Слева направо.
+to top left| | От правого нижнего угла к левому верхнему.
+to top right| | От левого нижнего угла к правому верхнему.
+to bottom left| | От правого верхнего угла к левому нижнему.
+to bottom right| | От левого верхнего угла к правому нижнему.
+
+
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap'); 
@@ -76,4 +61,3 @@ a{
 
 
 </style>
-
